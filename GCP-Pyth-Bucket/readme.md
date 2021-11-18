@@ -3,7 +3,7 @@
 ## Written in Python
 The code is written in Python and can be used as a re-usable funct. With argument "bucket-name"
 ## Unitest
-```
+```py
 class TestBucket(unittest.TestCase):
     def test_bucket_name_value(self):
         bucket = 'cloud-skills-bucket'
