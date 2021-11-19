@@ -3,7 +3,7 @@ Terraform modular template for adding a GCP VM with a firewall rule on an existi
 Variables are set in the main.tf file.
 
 ### Example 
-```tf
+```t
 terraform {
     required_providers {
       google = {
