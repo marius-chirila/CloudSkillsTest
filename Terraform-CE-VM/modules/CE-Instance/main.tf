@@ -33,11 +33,4 @@ resource "google_compute_instance" "web" {
       // Ephemeral public IP
     }
   }
-
-
-  metadata_startup_script = <<-EOF
-                            #! /bin/bash
-                            apt update && apt -y install apache2
-                            EOF
-
 }
