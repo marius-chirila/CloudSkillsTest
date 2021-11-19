@@ -1,6 +1,5 @@
 # Terraform template for creating a simple VM with a firewall rule open
 Terraform modular template for adding a GCP VM with a firewall rule on an existing "default" network.
-Variables are set in the main.tf file.
 
 ### Example 
 ```t
@@ -23,5 +22,7 @@ module "webserver" {
     servername = "<VM Instance Name>"
     type = "<type of VM>"
     zone = "<Zone deployed>"
+    image = "<Image to be run>"
 }
 ```
+Just replace the variables and it can be ran locally if terraform is installed, and pre-auth has been done. 

@@ -17,4 +17,5 @@ module "webserver" {
     servername = "<VM Instance Name>"
     type = "<type of VM>"
     zone = "<Zone deployed>"
+    image = "<Image to be run>"
 }
